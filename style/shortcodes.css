@@ -1,0 +1,492 @@
+/*SHORTCODES*/
+
+.tk_sc_block_toggle {
+    float: left;
+}
+
+.dropcap-no-background {
+    padding: 13px 8px 10px 0;
+}
+
+.tk_sc_block_toggle h5.tab-head, 
+.tk_sc_block_accordion h5.tab-head {
+    display: inherit;
+}
+
+.shortcodes .tk_sc_block_accordion i {
+    top: 20px;
+    font-size: 16px;
+}
+
+.shortcodes .tk_sc_block_toggle i {
+    top: 14px;
+}
+
+.shortcodes .tk-shortcode-tabs ul li {
+    float: left;
+    width: auto;
+}
+
+.shortcodes .tk-shortcode-tabs ul {
+    background: none;
+}
+
+.tk-shortcode-tabs .nav-tabs a {
+    float: left;
+    padding: 15px 17px 13px 17px;
+}
+
+.tk-shortcode-tabs .nav-tabs a h5 {
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    font-size: 23px;
+    line-height: 18px
+}
+
+.shortcodes .tk-shortcode-tabs ul {
+    margin: 0 0 -1px 0!important;
+}
+
+.tab-pane {display: none;}
+.tab-pane.active {display: block;}
+
+.pricing-table-one h4 {
+    font-weight: 400;
+    font-size: 29px;
+    margin-bottom: 0;
+    display: inherit;
+}
+
+.pricing-table-one span {
+    color: #5d5d5d;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tk_sc_block_toggle h5.tab-head, 
+.tk_sc_block_accordion h5.tab-head {
+    font-size: 23px;
+    line-height: 24px;
+}
+
+.shortcodes .pricing-table-one .color-buttons a:hover {
+    color: #fff;
+}
+.pricing-button a.price_btn {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 15px 5px;
+}
+
+.shortcodes .pricing-table-one-center p {
+    width: auto;
+    padding: 10px 0;
+}
+
+body .shortcodes .progress {
+    background: #E6E6E6;
+    margin: 0 0 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+body .shortcodes .progress .bar {
+    background: #E85C2C;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.tk-infobox p {
+    font-size: 15px;
+}
+
+.tk-infobox.alert {
+    padding: 17px 30px 17px 24px;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    border-radius: 10px!important;
+}
+
+.tab-content {
+    display: inline-block;
+    width: 100%;
+}
+
+.tab-pane.active {
+    background: #ffffff;
+}
+
+.tab-pane {
+    margin-top: 0;
+}
+
+.tab-pane,
+.tab-content,
+.tk-shortcode-tabs {
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.shortcodes .tk-shortcode-tabs ul li,
+.tk_sc_block_toggle {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.tk-shortcode-tabs .nav-tabs a,
+.shortcodes .tk-shortcode-tabs ul li {
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.shortcodes .dropcap-background {
+    font-size: 30px!important;
+    padding: 1px 9px;
+    margin: 4px 6px 0 0!important;
+}
+
+.shortcodes .tk-infobox p {
+    margin: 0!important;
+}
+
+.shortcodes .alert-error p {color: #c44a4a!important;}
+.shortcodes .alert-success p {color: #808d39!important;}
+.shortcodes .alert-block p {color: #bca272!important;}
+.shortcodes .alert-info p {color: #3f78a6!important;}
+
+.shortcodes .pricing-table-one-center p {
+    width: auto;
+    padding: 7px 0 0 0;
+    margin: 0!important;
+}
+
+.pricing-table-one-center span {
+    line-height: 29px;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+
+.col-sm-6 .pricing-table-one-center {
+    padding: 7px 20px;
+}
+
+.pricing-table-one-top p {
+    margin: 7px 0 0!important;
+}
+
+.pricing-button h6 a.price_btn {
+    float: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tk_sc_block_toggle h5.tab-head, 
+.tk_sc_block_accordion h5.tab-head {
+    float: none;
+}
+
+.shortcodes .tk_sc_block_accordion .tab-body p {
+    margin: 0!important;
+}
+
+.shortcodes .tk-shortcode-tabs .nav-tabs li a {
+    margin: 0 -1px -1px 0!important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.tk_sc_block_toggle h5.tab-head, .tk_sc_block_accordion h5.tab-head {
+    padding: 16px 70px 16px 20px;
+}
+.pricing-table-one .price_btn:hover,
+.pricing-table-one .price_btn {color: #fff!important;}
+
+.pricing-table-one .pricing-button {
+    float: none;
+    height: auto;
+}
+
+blockquote {
+    border-left: none;
+    display: inline-block;
+}
+
+
+/*Buttons*/
+a.btn {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding: 9px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shortcodes a.btn.btn-large {
+    font-size: 20px;
+    padding: 17px 20px 17px;
+}
+
+.shortcodes a.btn.btn-small {
+    padding: 5px 14px 5px;
+}
+
+.shortcodes a.btn.btn-mini {
+    padding: 3px 10px 3px;
+}
+
+.shortcodes a.btn {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tk_sc_block_toggle .tab-body p {
+    margin-bottom: 0!important;
+}
+
+.pricing-button.color-button-yellow h6 a.price_btn,
+a.btn.btn-warning {
+    background-color: #e7cc00;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7cc00), color-stop(100%, #e1c000));
+    background-image: -webkit-linear-gradient(top, #e7cc00, #e1c000);
+    background-image: -moz-linear-gradient(top, #e7cc00, #e1c000);
+    background-image: -ms-linear-gradient(top, #e7cc00, #e1c000);
+    background-image: -o-linear-gradient(top, #e7cc00, #e1c000);
+    background-image: linear-gradient(top, #e7cc00, #e1c000);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e7cc00, endColorstr=#e1c000);
+    color: #fff!important;
+}
+
+.pricing-button.pricing-button.color-button-yellow h6 a.price_btn:hover,
+a.btn.btn-warning:hover {
+    background-color: #d0bc25;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0bc25), color-stop(100%, #c6ae1f));
+    background-image: -webkit-linear-gradient(top, #d0bc25, #c6ae1f);
+    background-image: -moz-linear-gradient(top, #d0bc25, #c6ae1f);
+    background-image: -ms-linear-gradient(top, #d0bc25, #c6ae1f);
+    background-image: -o-linear-gradient(top, #d0bc25, #c6ae1f);
+    background-image: linear-gradient(top, #d0bc25, #c6ae1f);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d0bc25, endColorstr=#c6ae1f);
+    color: #fff!important;
+}
+
+.pricing-button.color-button-black h6 a.price_btn,
+a.btn.btn-inverse {
+    background-color: #404040;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #404040), color-stop(100%, #353535));
+    background-image: -webkit-linear-gradient(top, #404040, #353535);
+    background-image: -moz-linear-gradient(top, #404040, #353535);
+    background-image: -ms-linear-gradient(top, #404040, #353535);
+    background-image: -o-linear-gradient(top, #404040, #353535);
+    background-image: linear-gradient(top, #404040, #353535);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#404040, endColorstr=#353535);
+    color: #fff!important;
+}
+
+.pricing-button.color-button-black h6 a.price_btn:hover,
+a.btn.btn-inverse:hover {
+    background-color: #282828;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#282828), color-stop(100%, #202020));
+    background-image: -webkit-linear-gradient(top, #282828, #202020);
+    background-image: -moz-linear-gradient(top, #282828, #202020);
+    background-image: -ms-linear-gradient(top, #282828, #202020);
+    background-image: -o-linear-gradient(top, #282828, #202020);
+    background-image: linear-gradient(top, #282828, #202020);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#282828, endColorstr=#202020);
+    color: #fff!important;
+}
+
+.pricing-button.color-button-grey h6 a.price_btn,
+a.btn.default {
+    background-color: #bebebe;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bebebe), color-stop(100%, #b0b0b0));
+    background-image: -webkit-linear-gradient(top, #bebebe, #b0b0b0);
+    background-image: -moz-linear-gradient(top, #bebebe, #b0b0b0);
+    background-image: -ms-linear-gradient(top, #bebebe, #b0b0b0);
+    background-image: -o-linear-gradient(top, #bebebe, #b0b0b0);
+    background-image: linear-gradient(top, #bebebe, #b0b0b0);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#bebebe, endColorstr=#b0b0b0);
+    color: #fff!important;
+}
+
+.pricing-button.color-button-grey h6 a.price_btn:hover,
+a.btn.default:hover {
+    background-color: #9d9d9d;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9d9d9d), color-stop(100%, #878787));
+    background-image: -webkit-linear-gradient(top, #9d9d9d, #878787);
+    background-image: -moz-linear-gradient(top, #9d9d9d, #878787);
+    background-image: -ms-linear-gradient(top, #9d9d9d, #878787);
+    background-image: -o-linear-gradient(top, #9d9d9d, #878787);
+    background-image: linear-gradient(top, #9d9d9d, #878787);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#9d9d9d, endColorstr=#878787);
+    color: #fff!important;
+}
+
+.pricing-button.color-button-green h6 a.price_btn,
+a.btn.btn-success {
+    background: #39c950;
+    background: -moz-linear-gradient(top, #39c950 0%, #17b346 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#39c950), color-stop(100%,#17b346));
+    background: -webkit-linear-gradient(top, #39c950 0%,#17b346 100%);
+    background: -o-linear-gradient(top, #39c950 0%,#17b346 100%);
+    background: -ms-linear-gradient(top, #39c950 0%,#17b346 100%);
+    background: linear-gradient(to bottom, #39c950 0%,#17b346 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39c950', endColorstr='#17b346',GradientType=0 );
+    color: #fff!important;
+}
+
+.pricing-button.color-button-green h6 a.price_btn:hover,
+a.btn.btn-success:hover {
+    background: #32c149;
+    background: -moz-linear-gradient(top, #32c149 0%, #12a53e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#32c149), color-stop(100%,#12a53e));
+    background: -webkit-linear-gradient(top, #32c149 0%,#12a53e 100%);
+    background: -o-linear-gradient(top, #32c149 0%,#12a53e 100%);
+    background: -ms-linear-gradient(top, #32c149 0%,#12a53e 100%);
+    background: linear-gradient(to bottom, #32c149 0%,#12a53e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32c149', endColorstr='#12a53e',GradientType=0 );
+    color: #fff!important;
+}
+
+.pricing-button.color-button-red h6 a.price_btn,
+a.btn.btn-danger {
+    background: #ff754a;
+    background: -moz-linear-gradient(top, #ff754a 0%, #f25b12 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff754a), color-stop(100%,#f25b12));
+    background: -webkit-linear-gradient(top, #ff754a 0%,#f25b12 100%);
+    background: -o-linear-gradient(top, #ff754a 0%,#f25b12 100%);
+    background: -ms-linear-gradient(top, #ff754a 0%,#f25b12 100%);
+    background: linear-gradient(to bottom, #ff754a 0%,#f25b12 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff754a', endColorstr='#f25b12',GradientType=0 );
+    color: #fff!important;
+}
+
+.pricing-button.color-button-red h6 a.price_btn:hover,
+a.btn.btn-danger:hover {
+    background: #eb653b;
+    background: -moz-linear-gradient(top, #eb653b 0%, #db4f0c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eb653b), color-stop(100%,#db4f0c));
+    background: -webkit-linear-gradient(top, #eb653b 0%,#db4f0c 100%);
+    background: -o-linear-gradient(top, #eb653b 0%,#db4f0c 100%);
+    background: -ms-linear-gradient(top, #eb653b 0%,#db4f0c 100%);
+    background: linear-gradient(to bottom, #eb653b 0%,#db4f0c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb653b', endColorstr='#db4f0c',GradientType=0 );
+    color: #fff!important;
+}
+
+a.btn.btn-info {
+    background: #25b6d8;
+    background: -moz-linear-gradient(top, #25b6d8 0%, #009cc8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#25b6d8), color-stop(100%,#009cc8));
+    background: -webkit-linear-gradient(top, #25b6d8 0%,#009cc8 100%);
+    background: -o-linear-gradient(top, #25b6d8 0%,#009cc8 100%);
+    background: -ms-linear-gradient(top, #25b6d8 0%,#009cc8 100%);
+    background: linear-gradient(to bottom, #25b6d8 0%,#009cc8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25b6d8', endColorstr='#009cc8',GradientType=0 );
+    color: #fff !important;
+}
+
+a.btn.btn-info:hover {
+    background: #1faaca;
+    background: -moz-linear-gradient(top, #1faaca 0%, #008fb7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1faaca), color-stop(100%,#008fb7));
+    background: -webkit-linear-gradient(top, #1faaca 0%,#008fb7 100%);
+    background: -o-linear-gradient(top, #1faaca 0%,#008fb7 100%);
+    background: -ms-linear-gradient(top, #1faaca 0%,#008fb7 100%);
+    background: linear-gradient(to bottom, #1faaca 0%,#008fb7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1faaca', endColorstr='#008fb7',GradientType=0 );
+}
+
+.pricing-button.color-button-blue h6 a.price_btn,
+a.btn.btn-primary {
+    background: #6877d8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #6877d8 0%, #3071db 100%, #030596 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6877d8), color-stop(100%,#3071db), color-stop(100%,#030596)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #6877d8 0%,#3071db 100%,#030596 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #6877d8 0%,#3071db 100%,#030596 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #6877d8 0%,#3071db 100%,#030596 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #6877d8 0%,#3071db 100%,#030596 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6877d8', endColorstr='#030596',GradientType=0 ); /* IE6-9 */
+    color: #fff !important;
+}
+
+.pricing-button.color-button-blue h6 a.price_btn:hover,
+a.btn.btn-primary:hover {
+    background: #4a5fd6; /* Old browsers */
+    background: -moz-linear-gradient(top,  #4a5fd6 0%, #3071db 100%, #0a0275 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a5fd6), color-stop(100%,#3071db), color-stop(100%,#0a0275)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #4a5fd6 0%,#3071db 100%,#0a0275 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #4a5fd6 0%,#3071db 100%,#0a0275 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #4a5fd6 0%,#3071db 100%,#0a0275 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #4a5fd6 0%,#3071db 100%,#0a0275 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a5fd6', endColorstr='#0a0275',GradientType=0 ); /* IE6-9 */
+}
+
+.share-this .share-this-content.pin-share a span {
+    bottom: -8px!important;
+    left: 50px!important;
+    background: transparent url('img/count_north_white.png') 0 0 no-repeat!important;
+}
+
+.tk_sc_block_accordion_wrapper,
+.tk_sc_block_toggle h5.tab-head, 
+.shortcodes .tk-shortcode-tabs ul li, 
+.tk_sc_block_toggle, .pricing-table-one,
+.pricing-table-one-border {
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -khtml-border-radius: 10px!important;
+    border-radius: 10px!important;
+}
+
+.tk-shortcode-tabs .nav-tabs a, .shortcodes .tk-shortcode-tabs ul li,
+.tk_sc_block_accordion_wrapper .tk_sc_block_accordion:first-child,
+.pricing-table-one-top {
+    -webkit-border-top-left-radius: 10px!important;
+    -webkit-border-top-right-radius: 10px!important;
+    -moz-border-radius-topleft: 10px!important;
+    -moz-border-radius-topright: 10px!important;
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;    
+}
+
+.tk_sc_block_accordion_wrapper .tk_sc_block_accordion:last-child, {
+    -webkit-border-bottom-right-radius: 10px!important;
+    -webkit-border-bottom-left-radius: 10px!important;
+    -moz-border-radius-bottomright: 10px!important;
+    -moz-border-radius-bottomleft: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+}
