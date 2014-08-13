@@ -1,0 +1,589 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dreamy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-18 10:19+0100\n"
+"PO-Revision-Date: 2013-02-18 10:19+0100\n"
+"Last-Translator: ThemesKingdom <info@themeskingdom.com>\n"
+"Language-Team: ThemesKingdom <info@themeskingdom.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: /Users/justdot/Desktop/htdocs/development/Develop/wp-"
+"content/themes/\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: dreamy\n"
+
+#: dreamy/404.php:12
+msgid "404 - Error"
+msgstr ""
+
+#: dreamy/404.php:31
+msgid ""
+"Looks like the page you were looking for does not exist. Sorry about that."
+msgstr ""
+
+#: dreamy/404.php:32
+msgid "Check the web address for typos, or go to"
+msgstr ""
+
+#: dreamy/404.php:32
+msgid "HOME PAGE"
+msgstr ""
+
+#: dreamy/_contact.php:229 dreamy/home_contact.php:207
+msgid "Say Hello"
+msgstr ""
+
+#: dreamy/_contact.php:232 dreamy/home_contact.php:210
+msgid "Name *"
+msgstr ""
+
+#: dreamy/_contact.php:233 dreamy/home_contact.php:211
+msgid "E-mail"
+msgstr ""
+
+#: dreamy/_contact.php:236 dreamy/comments.php:124 dreamy/home_contact.php:214
+msgid "Message"
+msgstr ""
+
+#: dreamy/_contact.php:239 dreamy/home_contact.php:217
+msgid "Send Message"
+msgstr ""
+
+#: dreamy/_gallery.php:34 dreamy/home_gallery.php:12
+msgid "Filter :"
+msgstr ""
+
+#: dreamy/_gallery.php:38 dreamy/home_gallery.php:16
+msgid "All"
+msgstr ""
+
+#: dreamy/archive.php:10
+msgid "Blog"
+msgstr ""
+
+#: dreamy/comments.php:14
+msgid " · Edit · "
+msgstr ""
+
+#: dreamy/comments.php:40
+msgid "No comments so far!"
+msgstr ""
+
+#: dreamy/comments.php:42
+msgid "Comments"
+msgstr ""
+
+#: dreamy/comments.php:55
+msgid "You must be"
+msgstr ""
+
+#: dreamy/comments.php:55
+msgid "logged in"
+msgstr ""
+
+#: dreamy/comments.php:55
+msgid "to post a comment."
+msgstr ""
+
+#: dreamy/comments.php:108
+msgid "Leave a Reply"
+msgstr ""
+
+#: dreamy/comments.php:108
+msgid "Leave a Comment"
+msgstr ""
+
+#: dreamy/comments.php:111
+msgid ""
+"Your email address will not be published. <br />\r\n"
+"                        Required fields are marked *"
+msgstr ""
+
+#: dreamy/comments.php:120
+msgid "Name (required)"
+msgstr ""
+
+#: dreamy/comments.php:121
+msgid "E-mail (required)"
+msgstr ""
+
+#: dreamy/comments.php:128
+msgid "Send"
+msgstr ""
+
+#: dreamy/comments.php:143
+msgid "Comments are closed"
+msgstr ""
+
+#: dreamy/footer.php:58
+msgid "Twitter"
+msgstr ""
+
+#: dreamy/footer.php:68
+msgid "Facebook"
+msgstr ""
+
+#: dreamy/footer.php:78
+msgid "LinkedIn"
+msgstr ""
+
+#: dreamy/footer.php:88
+msgid "Google Plus"
+msgstr ""
+
+#: dreamy/footer.php:98
+msgid "RSS"
+msgstr ""
+
+#: dreamy/functions.php:29
+msgid "Primary Menu"
+msgstr ""
+
+#: dreamy/functions.php:124
+msgid "Go to"
+msgstr ""
+
+#: dreamy/functions.php:692
+msgid "You are here:"
+msgstr ""
+
+#: dreamy/functions.php:774
+msgid "Search results for"
+msgstr ""
+
+#: dreamy/functions.php:777
+msgid "Posts tagged"
+msgstr ""
+
+#: dreamy/functions.php:782
+msgid "Articles posted by"
+msgstr ""
+
+#: dreamy/functions.php:785
+msgid "Error 404"
+msgstr ""
+
+#: dreamy/header.php:22
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: dreamy/index.php:55 dreamy/single-pt_gallery.php:317
+msgid "Prev"
+msgstr ""
+
+#: dreamy/index.php:56 dreamy/single-pt_gallery.php:318
+msgid "Next"
+msgstr ""
+
+#: dreamy/index.php:105 dreamy/index.php:172
+msgid "Our Programs"
+msgstr ""
+
+#: dreamy/index.php:281
+msgid "Latest News"
+msgstr ""
+
+#: dreamy/index.php:283 dreamy/index.php:368
+msgid "View all"
+msgstr ""
+
+#: dreamy/index.php:366
+msgid "Our Gallery"
+msgstr ""
+
+#: dreamy/search.php:10
+msgid "Search"
+msgstr ""
+
+#: dreamy/search.php:238
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: dreamy/single-pt_gallery.php:15 dreamy/inc/post-types.php:47
+#: dreamy/inc/post-types.php:48 dreamy/inc/post-types.php:59
+msgid "Program"
+msgstr ""
+
+#: dreamy/single-pt_gallery.php:267 dreamy/single.php:240
+msgid "Share this :"
+msgstr ""
+
+#: dreamy/single.php:17 dreamy/inc/post-types.php:11
+#: dreamy/inc/post-types.php:12 dreamy/inc/post-types.php:23
+msgid "Slider"
+msgstr ""
+
+#: dreamy/inc/custom-taxonomies.php:10
+msgid "Search Gallery Categories"
+msgstr ""
+
+#: dreamy/inc/custom-taxonomies.php:11
+msgid "All Gallery Categories"
+msgstr ""
+
+#: dreamy/inc/custom-taxonomies.php:12 dreamy/inc/custom-taxonomies.php:13
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: dreamy/inc/custom-taxonomies.php:14
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: dreamy/inc/custom-taxonomies.php:15
+msgid "Update Gallery Category"
+msgstr ""
+
+#: dreamy/inc/custom-taxonomies.php:16
+msgid "Add New Gallery Categories"
+msgstr ""
+
+#: dreamy/inc/custom-taxonomies.php:17
+msgid "New Gallery Category"
+msgstr ""
+
+#: dreamy/inc/custom-taxonomies.php:18
+msgid "Gallery Categories"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:10 dreamy/inc/meta-boxes.php:17
+#: dreamy/inc/meta-boxes.php:166 dreamy/inc/meta-boxes.php:173
+msgid "Video Link"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:29
+msgid "Slider Fields"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:48 dreamy/inc/meta-boxes.php:55
+msgid "Audio Link"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:67 dreamy/inc/meta-boxes.php:74
+msgid "Quote Text"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:82
+msgid "Quote Author"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:94
+msgid "Link"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:101
+msgid "Link Text"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:108
+msgid "Link Url"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:120
+msgid "Author Info"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:127
+msgid "Author Name"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:134
+msgid "Project Url"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:146
+msgid "Personal Info"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:153
+msgid "Job Title"
+msgstr ""
+
+#: dreamy/inc/meta-boxes.php:185 dreamy/inc/meta-boxes.php:192
+msgid "Program Excerpt"
+msgstr ""
+
+#: dreamy/inc/post-types.php:13 dreamy/inc/post-types.php:49
+#: dreamy/inc/post-types.php:86 dreamy/inc/post-types.php:123
+msgid "Add New"
+msgstr ""
+
+#: dreamy/inc/post-types.php:14
+msgid "Add New Slide"
+msgstr ""
+
+#: dreamy/inc/post-types.php:15
+msgid "Edit Slide"
+msgstr ""
+
+#: dreamy/inc/post-types.php:16
+msgid "New Slide"
+msgstr ""
+
+#: dreamy/inc/post-types.php:17
+msgid "All Slides"
+msgstr ""
+
+#: dreamy/inc/post-types.php:18
+msgid "View this Slide"
+msgstr ""
+
+#: dreamy/inc/post-types.php:19
+msgid "Search Slides"
+msgstr ""
+
+#: dreamy/inc/post-types.php:20
+msgid "No Slides"
+msgstr ""
+
+#: dreamy/inc/post-types.php:21
+msgid "No Slides in Trash"
+msgstr ""
+
+#: dreamy/inc/post-types.php:50
+msgid "Add New Program"
+msgstr ""
+
+#: dreamy/inc/post-types.php:51
+msgid "Edit Program"
+msgstr ""
+
+#: dreamy/inc/post-types.php:52
+msgid "New Program"
+msgstr ""
+
+#: dreamy/inc/post-types.php:53
+msgid "All Programs"
+msgstr ""
+
+#: dreamy/inc/post-types.php:54
+msgid "View this Program"
+msgstr ""
+
+#: dreamy/inc/post-types.php:55
+msgid "Search Programs"
+msgstr ""
+
+#: dreamy/inc/post-types.php:56
+msgid "No Programs"
+msgstr ""
+
+#: dreamy/inc/post-types.php:57
+msgid "No Programs in Trash"
+msgstr ""
+
+#: dreamy/inc/post-types.php:84 dreamy/inc/post-types.php:85
+#: dreamy/inc/post-types.php:96
+msgid "Gallery"
+msgstr ""
+
+#: dreamy/inc/post-types.php:87
+msgid "Add New Photo"
+msgstr ""
+
+#: dreamy/inc/post-types.php:88
+msgid "Edit Photo"
+msgstr ""
+
+#: dreamy/inc/post-types.php:89
+msgid "New Photo"
+msgstr ""
+
+#: dreamy/inc/post-types.php:90
+msgid "All Photos"
+msgstr ""
+
+#: dreamy/inc/post-types.php:91
+msgid "View this Photo"
+msgstr ""
+
+#: dreamy/inc/post-types.php:92
+msgid "Search Gallery"
+msgstr ""
+
+#: dreamy/inc/post-types.php:93
+msgid "No Photos"
+msgstr ""
+
+#: dreamy/inc/post-types.php:94
+msgid "No Photos in Trash"
+msgstr ""
+
+#: dreamy/inc/post-types.php:121 dreamy/inc/post-types.php:122
+#: dreamy/inc/post-types.php:133
+msgid "Testimonials"
+msgstr ""
+
+#: dreamy/inc/post-types.php:124
+msgid "Add New Testimonial"
+msgstr ""
+
+#: dreamy/inc/post-types.php:125
+msgid "Edit Testimonial"
+msgstr ""
+
+#: dreamy/inc/post-types.php:126
+msgid "New Testimonial"
+msgstr ""
+
+#: dreamy/inc/post-types.php:127
+msgid "All Testimonials"
+msgstr ""
+
+#: dreamy/inc/post-types.php:128
+msgid "View this Testimonial"
+msgstr ""
+
+#: dreamy/inc/post-types.php:129
+msgid "Search Testimonials"
+msgstr ""
+
+#: dreamy/inc/post-types.php:130
+msgid "No Testimonials"
+msgstr ""
+
+#: dreamy/inc/post-types.php:131
+msgid "No Testimonials in Trash"
+msgstr ""
+
+#: dreamy/inc/postformats/aside.php:62 dreamy/inc/postformats/audio.php:125
+#: dreamy/inc/postformats/gallery.php:100 dreamy/inc/postformats/image.php:50
+#: dreamy/inc/postformats/link.php:73 dreamy/inc/postformats/quote.php:76
+#: dreamy/inc/postformats/standard.php:87 dreamy/inc/postformats/video.php:71
+msgid "Liked"
+msgstr ""
+
+#: dreamy/inc/shortcodes/popup.php:20
+msgid "Insert Shortcode"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:12
+msgid "Button URL"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:13
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:17
+msgid "Button's Style"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:18
+msgid "Select the button's style, ie the buttons colour"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:33
+msgid "Button's Text"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:34
+msgid "Add the button's text"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:44
+msgid "Type of list"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:45
+msgid "Select the list type"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:57
+msgid "List Text"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:58
+msgid "Add the list text"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:68
+msgid "Column Type"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:69
+msgid "Select the type of the column."
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:79
+msgid "Last Column"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:80
+msgid "Pick if column is last."
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:89
+msgid "Column Content"
+msgstr ""
+
+#: dreamy/inc/shortcodes/settings.php:90
+msgid "Add the column content."
+msgstr ""
+
+#: dreamy/inc/widgets/widget-ad.php:9
+msgid " - Ad"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-ad.php:42
+msgid "Ad Link:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-ad.php:46
+msgid "Image:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-newsletter.php:10
+msgid " - Newsletter"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-newsletter.php:129
+#: dreamy/inc/widgets/widget-testimonial.php:97
+#: dreamy/inc/widgets/widget-twitter.php:58
+msgid "Title:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-newsletter.php:133
+msgid "Newsletter Text:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-newsletter.php:137
+msgid "Chose Service:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-newsletter.php:142
+msgid "MailChimp API Key:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-newsletter.php:147
+msgid "MailChimp API List:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-newsletter.php:152
+msgid "Sendloop Username:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-newsletter.php:157
+msgid "Sendloop List ID:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-testimonial.php:9
+msgid " - Testimonials"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-twitter.php:9
+msgid " - Twitter Stream"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-twitter.php:62
+msgid "Username:"
+msgstr ""
+
+#: dreamy/inc/widgets/widget-twitter.php:66
+msgid "Number of tweets:"
+msgstr ""
