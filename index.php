@@ -133,7 +133,7 @@ $prefix = 'tk_';
                 </div><!--/bg-scroll-home-->
             <?php } elseif($fullwidth == 'half') { ?>
 
-                <div class="flexslider" >                  
+                <div class="flexslider home-flex-slider" >                  
                         <ul class="slides">
 
                             <?php
@@ -168,7 +168,7 @@ $prefix = 'tk_';
 
 
                 <div class="bg-scroll-home right">
-                    <div class="bg-scroll-home-title"><span><?php _e('Once upon a time...', tk_theme_name); ?></span></div><!--/bg-scroll-home-title-->
+                    <div class="bg-scroll-home-title ico-pencils"><span><?php _e('Once upon a time...', tk_theme_name); ?></span></div><!--/bg-scroll-home-title-->
                     <div class="bg-scroll-home-content right">
 
                               <ul id="mycarousel" class="jcarousel jcarousel-skin-tango">

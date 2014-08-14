@@ -11,6 +11,8 @@ require(  get_template_directory() . '/inc/custom-taxonomies.php');             
 
 require(  get_template_directory() . '/inc/class-tgm-plugin-activation.php');             //Script for installing plugins
 
+define('TDU', get_bloginfo('template_url'));
+
 if ( ! function_exists( 'register_slider_plugin' ) ) {
     add_action( 'tgmpa_register', 'register_slider_plugin' );
     function register_slider_plugin() {
@@ -546,14 +548,34 @@ add_filter('excerpt_more', 'new_excerpt_more');
 
                 if($sidebar_option !== 'yes') { ?>
 
-            <div id="sidebar" class="right">
+                <div id="sidebar" class="right">
+                    <div class="sidebar_widget_holder widget-form">
+                        <div class="bg-scroll-home-title ico-dummy"><span>Going on a bear hunt...</span></div>
+                        <p>Come an have a look around our marvalous nursery! Just leave your name and number  and we'll be in touch</p>
+                        <form action="#" class="contact-form">
+                            <input type="text" placeholder="Enter your Name" value="">
+                            <input type="email" placeholder="Enter your Email" value="">
+                            <input type="text" placeholder="Enter your Contact Number" value="">
+                            <input type="submit" value="Book a Show Around">
+                        </form>
+                    </div>
                    <?php if(function_exists('dynamic_sidebar') && dynamic_sidebar('Default Sidebar')) : ?>
                     <?php endif; ?>
-            </div><!--/#sidebar-->
+                </div><!--/#sidebar-->
 
                <?php } else { ?>
 
             <div id="sidebar" class="right">
+                    <div class="sidebar_widget_holder widget-form">
+                        <div class="bg-scroll-home-title ico-dummy"><span>Going on a bear hunt...</span></div>
+                        <p>Come an have a look around our marvalous nursery! Just leave your name and number  and we'll be in touch</p>
+                        <form action="#" class="contact-form">
+                            <input type="text" placeholder="Enter your Name" value="">
+                            <input type="email" placeholder="Enter your Email" value="">
+                            <input type="text" placeholder="Enter your Contact Number" value="">
+                            <input type="submit" value="Book a Show Around">
+                        </form>
+                    </div>
                    <?php if(function_exists('dynamic_sidebar') && dynamic_sidebar($sidebar_name)) : ?>
                    <?php endif; ?>
             </div><!--/#sidebar-->

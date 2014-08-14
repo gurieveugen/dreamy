@@ -66,70 +66,64 @@
 
 
 <?php if ( ! isset( $content_width ) ) $content_width = 980; ?>
-
-<div id="container">
-
-
-
-    <!-- HEADER -->
-    <div class="header left">
-        <div class="head-parallax">
-         <div id="parallax" class="parallax-viewport">
-             <ul>
-                <li class="parallax-layer">
-                    <img src="<?php echo get_template_directory_uri(); ?>/style/img/rays.png" alt="background rays" />
-                </li>
-             </ul>
+<div class="top-bar">
+    <div class="center-wrap cf">
+         <div class="left">
+             <p>7.30am to 7.00pm  Monday to Friday, 51 Weeks of the Year</p>
          </div>
-        <div class="bg-header-shadow left">
-            <div class="wrapper zindex">
-
-                <!--LOGO-->
-                <div class="logo left">
-                   <?php
-                        $logo = get_option(tk_theme_name . '_general_header_logo');
-                        if (empty($logo)) {
-                            $logo = get_template_directory_uri() . "/style/img/logo.png";
-                        }
-                    ?>
-                    <a href="<?php echo home_url() ?>" >
-                        <img src="<?php echo $logo; ?>" alt="logo" />
-                    </a>
-                </div><!--/logo-->
-
-                <!--MENU-->
-                <div class="bg-menu right">
-                    <div class="bg-menu-left left"></div>
-                    <nav>
-                       
-                          <?php
-                            if (function_exists('has_nav_menu') && has_nav_menu('primary')) {
-                                $nav_menu = array('title_li' => '', 'theme_location' => 'primary', 'menu_class' => 'sf-menu',  'link_before' => '<div class="bullet left"></div>');
-                                wp_nav_menu($nav_menu);
-                            } else {
-                                ?>
-                                <ul class="sf-menu">
-                                    <?php
-                                    $pageargs = array(
-                                        'depth' => 3,
-                                        'title_li' => '',
-                                        'echo' => 1,
-                                        'authors' => '',
-                                        'link_after' => '',
-                                        'link_before'  => '<div class="bullet left"></div>',
-                                        'walker' => '');
-                                    wp_list_pages($pageargs); }
-                                    ?>
-                                </ul>
-                    </nav>
-                    <div class="bg-menu-right left"></div>
-                </div><!--/bg-menu-->
-
-
-            </div><!--/wrapper-->
-            <div class="bg-blue-top left"></div><!--/bg-blue-top-->
-
-        </div><!--/bg-header-shadow-->
-        
+        <div class="contact-area right">
+            <strong>Tel: 01273 640686</strong>
+            <a href="#"><img src="<?php echo TDU; ?>/style/img/email.png" height="53" width="52" alt="" /></a>
+            <a href="#"><img src="<?php echo TDU; ?>/style/img/facebook.png" height="53" width="52" alt="" /></a>
         </div>
+    </div>
+</div>
+<!-- HEADER -->
+<div class="header-wrap">
+    <div class="header center-wrap cf">
+        <!--LOGO-->
+        <div class="logo left">
+           <?php
+                $logo = get_option(tk_theme_name . '_general_header_logo');
+                if (empty($logo)) {
+                    $logo = get_template_directory_uri() . "/style/img/logo.png";
+                }
+            ?>
+            <a href="<?php echo home_url() ?>" >
+                <img src="<?php echo $logo; ?>" alt="logo" />
+            </a>
+        </div><!--/logo-->
+
+        <!--MENU-->
+        <div class="bg-menu right">
+            <div class="bg-menu-left left"></div>
+            <nav>
+               
+                  <?php
+                    if (function_exists('has_nav_menu') && has_nav_menu('primary')) {
+                        $nav_menu = array('title_li' => '', 'theme_location' => 'primary', 'menu_class' => 'sf-menu',  'link_before' => '<div class="bullet left"></div>');
+                        wp_nav_menu($nav_menu);
+                    } else {
+                        ?>
+                        <ul class="sf-menu">
+                            <?php
+                            $pageargs = array(
+                                'depth' => 3,
+                                'title_li' => '',
+                                'echo' => 1,
+                                'authors' => '',
+                                'link_after' => '',
+                                'link_before'  => '<div class="bullet left"></div>',
+                                'walker' => '');
+                            wp_list_pages($pageargs); }
+                            ?>
+                        </ul>
+            </nav>
+            <div class="bg-menu-right left"></div>
+            <div class="ico-sun"></div>
+        </div><!--/bg-menu-->
+        <div class="bg-blue-top left"></div>
+        <a href="#" class="logo-link"><img src="<?php echo TDU; ?>/style/img/logo-ofsted.png" alt="" /></a>
     </div><!--/header-->
+</div>
+<div id="container">
