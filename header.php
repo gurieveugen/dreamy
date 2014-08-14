@@ -65,16 +65,27 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-<?php if ( ! isset( $content_width ) ) $content_width = 980; ?>
+<?php 
+if ( ! isset( $content_width ) ) $content_width = 980; 
+
+$theme_settings_text     = (string)get_option('theme_settings_text');
+$theme_settings_phone    = (string)get_option('theme_settings_phone');
+$theme_settings_email    = get_option('theme_settings_email');
+$theme_settings_email    = $theme_settings_email ? sprintf('<a href="mailto:%s"><img src="%s/style/img/email.png" height="53" width="52" alt="" /></a>', $theme_settings_email, TDU) : '';
+$theme_settings_facebook = get_option('theme_settings_facebook');
+$theme_settings_facebook = $theme_settings_facebook ? sprintf('<a href="mailto:%s"><img src="%s/style/img/facebook.png" height="53" width="52" alt="" /></a>', $theme_settings_facebook, TDU) : '';
+
+
+?>
 <div class="top-bar">
     <div class="center-wrap cf">
          <div class="left">
-             <p>7.30am to 7.00pm  Monday to Friday, 51 Weeks of the Year</p>
+             <p><?php echo $theme_settings_text; ?></p>
          </div>
         <div class="contact-area right">
-            <strong>Tel: 01273 640686</strong>
-            <a href="#"><img src="<?php echo TDU; ?>/style/img/email.png" height="53" width="52" alt="" /></a>
-            <a href="#"><img src="<?php echo TDU; ?>/style/img/facebook.png" height="53" width="52" alt="" /></a>
+            <strong><?php echo $theme_settings_phone; ?></strong>
+            <?php echo $theme_settings_email; ?>
+            <?php echo $theme_settings_facebook; ?>
         </div>
     </div>
 </div>

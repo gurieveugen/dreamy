@@ -11,6 +11,44 @@ require(  get_template_directory() . '/inc/custom-taxonomies.php');             
 
 require(  get_template_directory() . '/inc/class-tgm-plugin-activation.php');             //Script for installing plugins
 
+
+require_once 'includes/helper.php';
+// =========================================================
+// USE
+// =========================================================
+use Factory\Page;
+use Factory\PostType;
+use Factory\MetaBox;
+use Factory\Taxonomy;
+use Factory\LoremPosts;
+use Factory\Controls\ControlsCollection;
+use Factory\Controls\Text;
+use Factory\Controls\Textarea;
+use Factory\Controls\Select;
+use Factory\Controls\Checkbox;
+use Factory\Controls\Table;
+use Factory\Controls\Image;   
+// =========================================================
+// THEME SETTINGS [PAGE]
+// =========================================================
+$theme_settings = new Page('Theme settings', 
+    array(
+        'icon_code' => 'f085'
+    )
+);
+
+$section_top_bar = new ControlsCollection(
+    array(  
+        new Textarea('Text'),        
+        new Text('Phone'),
+        new Text('Email'),
+        new Text('Facebook')
+    )
+);
+
+$theme_settings->addControls('Top bar', $section_top_bar);
+$theme_settings->initPage();
+
 define('TDU', get_bloginfo('template_url'));
 
 if ( ! function_exists( 'register_slider_plugin' ) ) {
@@ -552,12 +590,13 @@ add_filter('excerpt_more', 'new_excerpt_more');
                     <div class="sidebar_widget_holder widget-form">
                         <div class="bg-scroll-home-title ico-dummy"><span>Going on a bear hunt...</span></div>
                         <p>Come an have a look around our marvalous nursery! Just leave your name and number  and we'll be in touch</p>
-                        <form action="#" class="contact-form">
+                       <!--  <form action="#" class="contact-form">
                             <input type="text" placeholder="Enter your Name" value="">
                             <input type="email" placeholder="Enter your Email" value="">
                             <input type="text" placeholder="Enter your Contact Number" value="">
                             <input type="submit" value="Book a Show Around">
-                        </form>
+                        </form> -->
+                        <?php echo do_shortcode('[contact-form-7 id="590" title="Sidebar form"]'); ?>
                     </div>
                    <?php if(function_exists('dynamic_sidebar') && dynamic_sidebar('Default Sidebar')) : ?>
                     <?php endif; ?>
@@ -569,12 +608,13 @@ add_filter('excerpt_more', 'new_excerpt_more');
                     <div class="sidebar_widget_holder widget-form">
                         <div class="bg-scroll-home-title ico-dummy"><span>Going on a bear hunt...</span></div>
                         <p>Come an have a look around our marvalous nursery! Just leave your name and number  and we'll be in touch</p>
-                        <form action="#" class="contact-form">
+                        <!-- <form action="#" class="contact-form">
                             <input type="text" placeholder="Enter your Name" value="">
                             <input type="email" placeholder="Enter your Email" value="">
                             <input type="text" placeholder="Enter your Contact Number" value="">
                             <input type="submit" value="Book a Show Around">
-                        </form>
+                        </form> -->
+                        <?php echo do_shortcode('[contact-form-7 id="590" title="Sidebar form"]'); ?>
                     </div>
                    <?php if(function_exists('dynamic_sidebar') && dynamic_sidebar($sidebar_name)) : ?>
                    <?php endif; ?>
@@ -587,6 +627,13 @@ add_filter('excerpt_more', 'new_excerpt_more');
         /*************************************************************/
         /**********************LOGIN LOGO AND LINK****************/
         /************************************************************/
+
+add_filter( 'wpcf7_form_class_attr', 'your_custom_form_class_attr' );
+
+function your_custom_form_class_attr( $class ) {
+    $class .= ' contact-form';
+    return $class;
+}
 
 add_action("login_head", "my_login_head");
 function my_login_head() {
